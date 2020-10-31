@@ -1,1 +1,3 @@
 # TemplateMethods-Bridge
+
+Neste laboratorio temos as classes FabricaBoloBaunilhaComMorango e FabricaBoloChocolateComCaramelo realizando uma mesma rotina. Portanto, esta sendo implementado padrão Template Method que baseia-se em definir o esqueleto de um algoritmo na superclasse mas deixa as subclasses sobrescreverem etapas específicas do algoritmo sem modificar sua estrutura. E utilizado tambem o padrão Bridge, que é um padrão de projeto estrutural que permite que você divida uma classe grande ou um conjunto de classes intimamente ligadas em duas hierarquias separadas—abstração e implementação—que podem ser desenvolvidas independentemente umas das outras. (No caso das classes Chocolate, Baunilha, Caramelo)
