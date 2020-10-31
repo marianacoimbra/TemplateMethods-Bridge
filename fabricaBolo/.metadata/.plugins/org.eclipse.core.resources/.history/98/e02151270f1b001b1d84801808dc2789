@@ -1,0 +1,18 @@
+package fabricaBoloRefactored;
+
+import fabricaBolo.FabricaBoloBaunilhaComMorango;
+import fabricaBolo.FabricaBoloChocolateComCaramelo;
+
+public class Cliente {
+	public static void main(String[] args) {
+		PrepararBolo boloChocolate = new Chocolate();
+		PrepararBolo boloBaunilha = new Baunilha();
+
+		// set do sabor da cobertura para teste
+		boloBaunilha.morango();
+		boloChocolate.caramelo();
+		// fabricação dos bolos com massa e cobertura desejadas
+		boloBaunilha.prepararBolo();
+		boloChocolate.prepararBolo();
+	}
+}

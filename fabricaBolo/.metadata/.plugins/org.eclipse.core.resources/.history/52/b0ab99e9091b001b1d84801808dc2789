@@ -1,0 +1,4 @@
+package fabricaBoloRefactored;
+
+public interface PreparaBolo {
+}

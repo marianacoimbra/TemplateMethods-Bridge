@@ -1,0 +1,13 @@
+package fabricaBoloRefactored;
+
+public class Cliente {
+	public static void main(String[] args) {
+		PrepararBolo boloBaunilha = new Baunilha();
+		PrepararBolo boloChocolate = new Chocolate();
+
+		boloBaunilha.morango();
+		boloChocolate.caramelo();
+		boloBaunilha.prepararBolo();
+		boloChocolate.prepararBolo();
+	}
+}

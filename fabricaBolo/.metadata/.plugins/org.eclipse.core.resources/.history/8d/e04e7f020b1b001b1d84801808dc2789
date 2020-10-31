@@ -1,0 +1,6 @@
+package fabricaBoloRefactored;
+
+public abstract class PreparaBolo {
+
+	
+}
